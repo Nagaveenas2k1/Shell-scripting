@@ -40,9 +40,9 @@ Replace with the actual repository owner’s username and the repository name.
 
 ## How to run the script
 1. Make the script executable
-   **chmod +x list_users.sh**
+**"chmod +x list_users.sh"**
 2.Run the script
-   **./list_users.sh**
+**"./list_users.sh"**
 
 ## Sample Output
 Listing users with read access to your_repo_owner/your_repo_name...
