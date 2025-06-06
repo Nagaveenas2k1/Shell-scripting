@@ -63,8 +63,9 @@ function list_users_with_read_access {
 
 function helper{
     expected_cmd_agrs = 2
-    id [$#-ne $expected_cmd_agrs]; then 
-    echo "please execute the script with required cmd args"
+    if [$#-ne $expected_cmd_agrs]; then 
+      echo "please execute the script with required cmd args"
+    fi
 }
 
 
