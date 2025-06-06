@@ -26,11 +26,11 @@ Before using the script, make sure the following tools are installed:
 If you're on Windows, install and run this in *Git Bash*.
 
 ## GitHub Authentication
-To access private repositories or avoid rate limits, use a “GitHub Personal Access Token (PAT)” with at least the repo scope.
+To access private repositories, use a “GitHub Personal Access Token (PAT)” with at least the repo scope.
 
-#Set Your Credentials as Environment Variables
-export GITHUB_USERNAME="your_github_username"
-export GITHUB_TOKEN="your_github_token"
+Set Your Credentials as Environment Variables:
+* export GITHUB_USERNAME="your_github_username"
+* export GITHUB_TOKEN="your_github_token"
 
 ## Configuration
 Open list-users.sh and update these lines:
@@ -62,7 +62,7 @@ No users with read access found for your_repo_owner/your_repo_name.
 * It filters users who have **"permission pull": true** (i.e., read access)
 * The response is parsed using jq
 
-##Author
+## Author
 **S. Nagaveena**
 
 
