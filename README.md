@@ -41,7 +41,7 @@ Replace with the actual repository owner’s username and the repository name.
 ## How to run the script
 1. Make the script executable
 **"chmod +x list_users.sh"**  
-2.Run the script
+2. Run the script
 **"./list_users.sh"**
 
 ## Sample Output
