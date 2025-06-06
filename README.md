@@ -55,6 +55,9 @@ username3
 **If no users have read access:**  
 * No users with read access found for your_repo_owner/your_repo_name.
 
+### Screenshot  
+![Screenshot of List Users script] (List_users_screenshot.png)
+
 ## How it works
 * The script uses the GitHub REST API to fetch collaborators:
   **GET https://api.github.com/repos/{owner}/{repo}/collaborators**
