@@ -1,6 +1,4 @@
 # GitHub Collaborator Access Checker
-
-## About
 A simple and efficient Bash script that uses the GitHub API to list all collaborators who have read (pull) access to a specific GitHub repository.
 
 This script is useful for:
