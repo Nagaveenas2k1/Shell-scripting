@@ -52,6 +52,9 @@ username1
 username2  
 username3
 
+### Screenshot
+! [Screenshot of List users script] (List_users_screenshot.png)
+
 **If no users have read access:**  
 * No users with read access found for your_repo_owner/your_repo_name.
 

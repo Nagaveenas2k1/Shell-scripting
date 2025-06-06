@@ -27,13 +27,14 @@ helper()
 # GitHub API URL
 API_URL="https://api.github.com"
 
+
 # GitHub username and personal access token
-USERNAME=$username
-TOKEN=$token
+USERNAME="$USERNAME"
+TOKEN="$TOKEN"
 
 # User and Repository information
-REPO_OWNER=$1
-REPO_NAME=$2
+REPO_OWNER="Nagaveenas2k1"
+REPO_NAME="Shell-scripting"
 
 # Function to make a GET request to the GitHub API
 function github_api_get {
@@ -65,6 +66,7 @@ function helper{
     id [$#-ne $expected_cmd_agrs]; then 
     echo "please execute the script with required cmd args"
 }
+
 
 # Main script
 
