@@ -45,10 +45,11 @@ Replace with the actual repository owner’s username and the repository name.
 **"./list_users.sh"**
 
 ## Sample Output
+**If usersw have read access**
 Listing users with read access to your_repo_owner/your_repo_name...
-Users with read access to your_repo_owner/your_repo_name:
-username1
-username2
+Users with read access to your_repo_owner/your_repo_name:  
+username1  
+username2  
 username3
 
 **If no users have read access:**  
