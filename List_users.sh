@@ -65,7 +65,7 @@ function helper{
     expected_cmd_agrs = 2
     if [$#-ne $expected_cmd_agrs]; then 
       echo "please execute the script with required cmd args"
-    fi
+    fi 
 }
 
 
